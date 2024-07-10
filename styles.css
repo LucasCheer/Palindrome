@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: sans-serif;
+    color: azure;
+    text-align: center ;
+    margin: 0;
+    width: 100%;
+
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.hijo{
+    width: 100%;
+
+}
+#textText{
+    padding: 2px 0 10px 0;
+}
+#title{ 
+    margin: 0;
+    padding: 15px 0;
+    font-size:2.5rem;
+}
+h2{
+    margin: 0;
+}
+#palindromeContainer{
+    background-color: rgb(14, 58, 124);
+    width: 30%;
+    min-width: 300px;
+    margin: 5px auto;
+    padding: 15px 5px 15px 5px ;
+    border: 2px solid rgb(13, 28, 92);
+    border-radius: 19px;
+}
+#explication{
+    background-color: rgb(65, 70, 77);
+    width: 30%;
+    min-width: 250px;
+    margin: 5px auto;
+    padding: 10px;
+    border: 2px solid rgb(105, 105, 105);
+    border-radius: 19px;
+    text-align: justify;
+}
+#check-btn{
+    background-color: rgb(26, 26, 133);
+    color: azure;
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid rgb(107, 106, 148);
+}
+#text-input{
+    height: 20px;
+    font-size: 1.0rem;
+}
